@@ -9,19 +9,7 @@
     <link rel="stylesheet" href="./css/tailwind.css">
 </head>
 
-<body class="font-serif">
-    <!-- <div class="invisible target:visible opacity-0 fixed flex items-center justify-center z-40" id="pf-Doc1">
-        <div>
-            <a href="#" class="right-1">&times;</a>
-            <img src="./img/popup_docinfo1.png" alt="">
-        </div>
-    </div>
-    <div class="invisible target:visible opacity-0 fixed flex items-center justify-center z-40" id="pf-Doc2">
-        <div>
-            <a href="#" class="right-1">&times;</a>
-            <img src="./img/popup_docinfo2.png" alt="">
-        </div>
-    </div> -->
+<body class="font-serif ">
     <div class="header flex flex-row">
         <div class="basis-1/5 m-auto flex justify-center">
             <a href="#"><img src="img/header_logo.png" alt=""></a>
@@ -87,7 +75,7 @@
             <li><img src="img/Nav-pic/float_menu6.png" alt=""></li>
         </ul>
     </div>
-   
+
     <div class="content">
         <div class="slice w-full">
             <img src="img/banner_visual2.png" alt="">
@@ -131,15 +119,31 @@
                 </a>
             </div>
         </div>
-        <div class="doctor flex -mt-[150px]"
+        <div class="doctor flex -mt-[150px] relative" id="doc"
             style="background-image: url('./img/lw.png');background-repeat: no-repeat; background-position:center;">
+
+            <div class="invisible target:visible z-40 absolute ml-[30%] -mt-[8%] h-full overflow-scroll" id="pf-Doc1">
+
+                <div class="m-auto w-full h-[500px] ">
+                    <a href="#doc" class="right-1 absolute h-[10%] w-[10%]"></a>
+                    <img src="./img/popup_docinfo1.png" alt="">
+
+                </div>
+            </div>
+            <div class="invisible target:visible z-40 absolute ml-[30%] -mt-[8%] h-full overflow-scroll" id="pf-Doc2">
+                <div class="m-auto w-full h-[500px] ">
+                    <a href="#doc" class="right-1 absolute h-[10%] w-[10%]"></a>
+                    <img src="./img/popup_docinfo2.png" alt="">
+                </div>
+            </div>
+
             <div class="basis-1/2 flex justify-end">
-                <a href="#">
+                <a href="#pf-Doc1">
                     <img src="img/Doctor/infodoc_doc1_1.png" alt="">
                 </a>
             </div>
             <div class="basis-1/2 flex justify-start">
-                <a href="#">
+                <a href="#pf-Doc2">
                     <img src="img/Doctor/infodoc_doc2_1.png" alt="">
                 </a>
             </div>
@@ -178,23 +182,24 @@
         <div style="background-image: url('./img/bg_content_banner4.png');background-repeat: no-repeat;"
             class="h-screen relative mt-[15%]">
             <div class="ml-[16%] absolute mt-[15%]">
-            <div class="py-[30px] px-14">
-                <img src="./img/text_content_banner7.png" alt="">
+                <div class="py-[30px] px-14">
+                    <img src="./img/text_content_banner7.png" alt="">
+                </div>
+                <div class="py-[30px] px-14">
+                    <img src="./img/text_content_banner8.png" alt="">
+                </div>
             </div>
-            <div class="py-[30px] px-14">
-                <img src="./img/text_content_banner8.png" alt="">
-            </div>
-        </div>
         </div>
     </div>
     <div class="footer bg-[#2c2c2c] h-screen">
         <div class="grid grid-rows-3 items-center justify-center">
-            <div class="flex flex-row justify-between items-center border-t-2 border-gray-500 border-b-2 w-max h-max m-auto gap-10 py-6">
+            <div
+                class="flex flex-row justify-between items-center border-t-2 border-gray-500 border-b-2 w-max h-max m-auto gap-10 py-6">
                 <div>
                     <img src="./img/footer_text1.png" alt="">
                 </div>
                 <div class="mt-20">
-                    <a href="#" ><img src="./img/footer_btn_kakao.png" alt=""></a>
+                    <a href="#"><img src="./img/footer_btn_kakao.png" alt=""></a>
                 </div>
                 <div>
                     <img src="./img/footer_text2.png" alt="">
@@ -213,26 +218,26 @@
                 <div class="flex flex-row gap-5">
                     <div>
                         <a href="#">
-                        <img src="./img/footer_text4.png" alt="">
+                            <img src="./img/footer_text4.png" alt="">
                         </a>
                     </div>
                     <div>
                         <a href="#">
-                        <img src="./img/footer_text5.png" alt="">
+                            <img src="./img/footer_text5.png" alt="">
                         </a>
                     </div>
                     <div>
                         <a href="#">
-                        <img src="./img/footer_text6.png" alt="">
+                            <img src="./img/footer_text6.png" alt="">
                         </a>
                     </div>
                     <div>
                         <a href="#">
-                        <img src="./img/footer_text7.png" alt="">
+                            <img src="./img/footer_text7.png" alt="">
                         </a>
                     </div>
                 </div>
-               
+
             </div>
         </div>
     </div>
