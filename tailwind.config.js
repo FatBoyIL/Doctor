@@ -2,7 +2,10 @@
 module.exports = {
   content: ["./public/index.html"],
   theme: {
-    extend: {},
+    extend: {fontFamily:{
+        notokorean:['Noto Sans Korean']
+    }
+  },
   },
   plugins: [],
 }

@@ -7,9 +7,12 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Document</title>
     <link rel="stylesheet" href="./css/tailwind.css">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link href="https://fonts.googleapis.com/css2?family=Noto+Sans+KR:wght@100;300;400;500;700;900&family=Open+Sans:wght@300;400;700&display=swap" rel="stylesheet">
 </head>
 
-<body class="font-serif ">
+<body class="font-notokorean ">
     <div class="header flex flex-row">
         <div class="basis-1/5 m-auto flex justify-center">
             <a href="#"><img src="img/header_logo.png" alt=""></a>
@@ -81,7 +84,7 @@
             <img src="img/banner_visual2.png" alt="">
         </div>
         <div class=" w-full h-[590px] flex flex-row  bg-[#012e85]"
-            style="background-image: url('./img/Content 2/bg_category.png');background-position: center; background-repeat: no-repeat;">
+            style="background-image: url('./img/content-2/bg_category.png');background-position: center; background-repeat: no-repeat;">
             <div class="flex flex-row justify-center items-center basis-1/2 ">
                 <div class="text-white text-3xl font-semibold relative px-6">진료과목</div>
                 <div class="border-t-2 bg-white h-px w-[23%] opacity-20 "></div>
@@ -89,31 +92,31 @@
             <div class="flex flex-row basis-1/2 justify-center items-center mr-[180px]">
                 <a href="#" class="basis-1/5">
                     <div class=" text-white text-center">
-                        <img src="img/Content 2/icon_category1.png" alt="" class="m-auto py-3">
+                        <img src="img/content-2/icon_category1.png" alt="" class="m-auto py-3">
                         정형외과
                     </div>
                 </a>
                 <a href="#" class="basis-1/5">
                     <div class=" text-white text-center">
-                        <img src="img/Content 2/icon_category2.png" alt="" class="m-auto py-3">
+                        <img src="img/content-2/icon_category2.png/icon_category2.png" alt="" class="m-auto py-3">
                         신경외과
                     </div>
                 </a>
                 <a href="#" class="basis-1/5">
                     <div class=" text-white text-center">
-                        <img src="img/Content 2/icon_category3.png" alt="" class="m-auto py-3">
+                        <img src="img/content-2/icon_category3.png/icon_category3.png" alt="" class="m-auto py-3">
                         내과
                     </div>
                 </a>
                 <a href="#" class="basis-1/5">
                     <div class=" text-white text-center">
-                        <img src="img/Content 2/icon_category4.png" alt="" class="m-auto py-3">
+                        <img src="img/content-2/icon_category4.png/icon_category4.png" alt="" class="m-auto py-3">
                         건강검진
                     </div>
                 </a>
                 <a href="#" class="basis-1/5">
                     <div class=" text-white text-center">
-                        <img src="img/Content 2/icon_category5.png" alt="" class="m-auto py-3">
+                        <img src="img/content-2/icon_category5.png/icon_category5.png" alt="" class="m-auto py-3">
                         도수운동재활치료
                     </div>
                 </a>
@@ -122,15 +125,15 @@
         <div class="doctor flex -mt-[150px] relative" id="doc"
             style="background-image: url('./img/lw.png');background-repeat: no-repeat; background-position:center;">
 
-            <div class="invisible target:visible z-40 absolute ml-[30%] -mt-[8%] h-full overflow-scroll" id="pf-Doc1">
+            <div class="invisible target:visible z-40 absolute ml-[30%] -mt-[8%] h-full overflow-scroll transition-all duration-700 ease-in-out" id="pf-Doc1">
 
-                <div class="m-auto w-full h-[500px] ">
+                <div class="m-auto w-full h-[500px]">
                     <a href="#doc" class="right-1 absolute h-[10%] w-[10%]"></a>
                     <img src="./img/popup_docinfo1.png" alt="">
 
                 </div>
             </div>
-            <div class="invisible target:visible z-40 absolute ml-[30%] -mt-[8%] h-full overflow-scroll" id="pf-Doc2">
+            <div class="invisible target:visible z-40 absolute ml-[30%] -mt-[8%] h-full overflow-scroll transition-all duration-400 ease-in-out" id="pf-Doc2">
                 <div class="m-auto w-full h-[500px] ">
                     <a href="#doc" class="right-1 absolute h-[10%] w-[10%]"></a>
                     <img src="./img/popup_docinfo2.png" alt="">
@@ -139,19 +142,19 @@
 
             <div class="basis-1/2 flex justify-end">
                 <a href="#pf-Doc1">
-                    <img src="img/Doctor/infodoc_doc1_1.png" alt="">
+                    <img src="img/doctor/infodoc_doc1_1.png" alt="">
                 </a>
             </div>
             <div class="basis-1/2 flex justify-start">
                 <a href="#pf-Doc2">
-                    <img src="img/Doctor/infodoc_doc2_1.png" alt="">
+                    <img src="img/doctor/infodoc_doc2_1.png" alt="">
                 </a>
             </div>
         </div>
         <div style="background-image: url('./img/bg_content_banner1.png');background-repeat: no-repeat;"
-            class="h-screen relative">
-            <div class="absolute p-4 ml-[50%] mt-[10%] mb-[50%]">
-                <img src="./img/text_content_banner1.png" alt="" class="py-[70px]">
+            class="h-[900px] w-full relative">
+            <div class="absolute right-[21%] top-[18%]">
+                <img src="./img/text_content_banner1.png" alt="" class="py-16">
                 <img src="./img/text_content_banner2.png" alt="">
             </div>
         </div>
@@ -163,7 +166,7 @@
             </div>
         </div>
         <div style="background-image: url('./img/bg_content_banner3.png');background-repeat: no-repeat;"
-            class="h-screen relative -mt-[180px]">
+            class="h-screen relative -mt-[50px]">
             <div class="absolute -mt-[5%] ml-[15%] flex">
                 <div>
                     <img src="./img/banner_content3_sub.png" alt="">
@@ -180,12 +183,12 @@
             </div>
         </div>
         <div style="background-image: url('./img/bg_content_banner4.png');background-repeat: no-repeat;"
-            class="h-screen relative mt-[15%]">
-            <div class="ml-[16%] absolute mt-[15%]">
-                <div class="py-[30px] px-14">
+            class="h-screen relative mt-[20%]">
+            <div class="absolute left-[19%] top-[25%]">
+                <div class="py-[80px]">
                     <img src="./img/text_content_banner7.png" alt="">
                 </div>
-                <div class="py-[30px] px-14">
+                <div class="">
                     <img src="./img/text_content_banner8.png" alt="">
                 </div>
             </div>
