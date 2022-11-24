@@ -553,112 +553,8 @@ video {
   top: 20%;
 }
 
-.left-\[19\%\] {
-  left: 19%;
-}
-
-.top-\[25\%\] {
-  top: 25%;
-}
-
-.left-\[30\%\] {
-  left: 30%;
-}
-
-.left-\[35\%\] {
-  left: 35%;
-}
-
-.left-\[38\%\] {
-  left: 38%;
-}
-
-.left-\[40\%\] {
-  left: 40%;
-}
-
-.left-\[43\%\] {
-  left: 43%;
-}
-
-.left-\[41\%\] {
-  left: 41%;
-}
-
 .left-\[42\%\] {
   left: 42%;
-}
-
-.right-\[20\%\] {
-  right: 20%;
-}
-
-.top-\[30\%\] {
-  top: 30%;
-}
-
-.top-\[10\%\] {
-  top: 10%;
-}
-
-.right-\[10\%\] {
-  right: 10%;
-}
-
-.right-\[9\%\] {
-  right: 9%;
-}
-
-.right-\[5\%\] {
-  right: 5%;
-}
-
-.right-\[18\%\] {
-  right: 18%;
-}
-
-.right-\[15\%\] {
-  right: 15%;
-}
-
-.right-\[14\%\] {
-  right: 14%;
-}
-
-.top-\[45\%\] {
-  top: 45%;
-}
-
-.left-8 {
-  left: 2rem;
-}
-
-.left-\[20\%\] {
-  left: 20%;
-}
-
-.left-\[10\%\] {
-  left: 10%;
-}
-
-.left-\[5\%\] {
-  left: 5%;
-}
-
-.bottom-0 {
-  bottom: 0px;
-}
-
-.top-\[300px\] {
-  top: 300px;
-}
-
-.left-1\/2 {
-  left: 50%;
-}
-
-.left-\[45\%\] {
-  left: 45%;
 }
 
 .z-30 {
@@ -694,108 +590,20 @@ video {
   margin-top: -8%;
 }
 
-.-mt-\[300px\] {
-  margin-top: -300px;
-}
-
-.-mt-\[50px\] {
-  margin-top: -50px;
-}
-
-.ml-\[20\%\] {
-  margin-left: 20%;
-}
-
-.mt-\[20\%\] {
-  margin-top: 20%;
-}
-
 .-mt-6 {
   margin-top: -1.5rem;
-}
-
-.-mt-\[80px\] {
-  margin-top: -80px;
-}
-
-.-ml-11 {
-  margin-left: -2.75rem;
-}
-
-.mt-\[10\%\] {
-  margin-top: 10%;
-}
-
-.mt-\[5\%\] {
-  margin-top: 5%;
-}
-
-.-mt-\[5\%\] {
-  margin-top: -5%;
-}
-
-.-mt-\[20\%\] {
-  margin-top: -20%;
-}
-
-.-mt-\[10\%\] {
-  margin-top: -10%;
-}
-
-.-mt-\[1\%\] {
-  margin-top: -1%;
-}
-
-.-mt-\[3\%\] {
-  margin-top: -3%;
-}
-
-.-mt-\[7\%\] {
-  margin-top: -7%;
-}
-
-.-mt-9 {
-  margin-top: -2.25rem;
-}
-
-.-ml-\[40px\] {
-  margin-left: -40px;
-}
-
-.-ml-\[80px\] {
-  margin-left: -80px;
 }
 
 .-mr-\[100px\] {
   margin-right: -100px;
 }
 
-.-mr-\[200px\] {
-  margin-right: -200px;
-}
-
-.-mr-\[50px\] {
-  margin-right: -50px;
-}
-
-.-mr-\[130px\] {
-  margin-right: -130px;
-}
-
-.mt-\[50\%\] {
-  margin-top: 50%;
-}
-
-.mt-\[8\%\] {
-  margin-top: 8%;
+.-mt-\[80px\] {
+  margin-top: -80px;
 }
 
 .mt-20 {
   margin-top: 5rem;
-}
-
-.mt-\[\] {
-  margin-top: ;
 }
 
 .flex {
@@ -843,10 +651,6 @@ video {
   height: 900px;
 }
 
-.h-screen {
-  height: 100vh;
-}
-
 .h-max {
   height: -moz-max-content;
   height: max-content;
@@ -871,14 +675,6 @@ video {
 
 .w-\[10\%\] {
   width: 10%;
-}
-
-.w-\[80\%\] {
-  width: 80%;
-}
-
-.w-\[90\%\] {
-  width: 90%;
 }
 
 .w-\[96\%\] {
@@ -956,14 +752,6 @@ video {
   gap: 1.25rem;
 }
 
-.self-auto {
-  align-self: auto;
-}
-
-.self-center {
-  align-self: center;
-}
-
 .justify-self-end {
   justify-self: end;
 }
@@ -978,10 +766,6 @@ video {
 
 .border {
   border-width: 1px;
-}
-
-.border-2 {
-  border-width: 2px;
 }
 
 .border-r-2 {
@@ -1029,18 +813,6 @@ video {
   padding: 1rem;
 }
 
-.p-\[5\%\] {
-  padding: 5%;
-}
-
-.p-\[2\%\] {
-  padding: 2%;
-}
-
-.p-\[50px\] {
-  padding: 50px;
-}
-
 .p-\[25px\] {
   padding: 25px;
 }
@@ -1075,56 +847,6 @@ video {
   padding-bottom: 70px;
 }
 
-.py-\[80px\] {
-  padding-top: 80px;
-  padding-bottom: 80px;
-}
-
-.py-\[5\%\] {
-  padding-top: 5%;
-  padding-bottom: 5%;
-}
-
-.py-\[20\%\] {
-  padding-top: 20%;
-  padding-bottom: 20%;
-}
-
-.py-\[6\%\] {
-  padding-top: 6%;
-  padding-bottom: 6%;
-}
-
-.py-\[3\%\] {
-  padding-top: 3%;
-  padding-bottom: 3%;
-}
-
-.py-\[8\%\] {
-  padding-top: 8%;
-  padding-bottom: 8%;
-}
-
-.py-\[50px\] {
-  padding-top: 50px;
-  padding-bottom: 50px;
-}
-
-.py-\[2\%\] {
-  padding-top: 2%;
-  padding-bottom: 2%;
-}
-
-.py-\[120px\] {
-  padding-top: 120px;
-  padding-bottom: 120px;
-}
-
-.py-\[200px\] {
-  padding-top: 200px;
-  padding-bottom: 200px;
-}
-
 .py-\[180px\] {
   padding-top: 180px;
   padding-bottom: 180px;
@@ -1133,22 +855,6 @@ video {
 .py-6 {
   padding-top: 1.5rem;
   padding-bottom: 1.5rem;
-}
-
-.pt-\[20\%\] {
-  padding-top: 20%;
-}
-
-.pl-\[2\%\] {
-  padding-left: 2%;
-}
-
-.pt-10 {
-  padding-top: 2.5rem;
-}
-
-.pt-\[80px\] {
-  padding-top: 80px;
 }
 
 .pt-\[120px\] {
@@ -1196,10 +902,6 @@ video {
 }
 
 @media (min-width: 768px) {
-  .md\:left-\[47\%\] {
-    left: 47%;
-  }
-
   .md\:ml-\[10\%\] {
     margin-left: 10%;
   }
